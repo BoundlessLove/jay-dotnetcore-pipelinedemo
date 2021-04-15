@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "fd30b21a-915c-4db7-9cda-9fc483ab0574"
+        },
+        "name": {
+            "value": "epm-webapp-demo"
+        },
+        "location": {
+            "value": "Australia Central"
+        },
+        "hostingPlanName": {
+            "value": "test"
+        },
+        "serverFarmResourceGroup": {
+            "value": "webapp-witharm-demo"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "skuCode": {
+            "value": "F1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "linuxFxVersion": {
+            "value": "DOTNETCORE|5.0"
+        }
+    }
+}
